@@ -5,12 +5,24 @@ body{
   margin-right: 30px;
 }
 
+h1{
+  text-align: center;
+  color: white;
+  background-color:rgb(60,33,15) ;
+  margin-left: 0px;
+  margin-right:0px;
+}
+
 .orange{
   color:rgb(234,87,12);
 }
 
 .green{
   color:rgb(111,186,44);
+}
+
+.bold{
+  font-weight: bold;
 }
 
 .center{
@@ -23,6 +35,18 @@ body{
   text-align: center;
 }
 
+.flex{
+  display:flex;
+}
+
+table.what {
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-all;
+  word-wrap: break-all;
+  border-spacing: 20px;
+  }
+
 .policy{
   margin-top: 50px;
   background-color:rgb(246,246,246);
@@ -30,3 +54,13 @@ body{
   height: 200px;
   overflow: scroll;
   }
+
+.button{
+  display: block;
+  width: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
